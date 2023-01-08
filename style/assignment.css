@@ -1,16 +1,20 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.banner-container{
+
+/* banner styles */
+.banner-container {
     background-image: url(../images/banner/banner3.png);
     width: 125%;
     height: 100vh;
     background-repeat: no-repeat;
     display: flex;
     justify-items: auto;
+    background-size: auto;
 }
-.banner-tittle{
+
+.banner-tittle {
     color: #FFFFFF;
     font-size: 65px;
     text-align: right;
@@ -21,7 +25,8 @@
     top: 216px;
 
 }
-.banner-description{
+
+.banner-description {
     color: #FFFFFF;
     font-size: 16px;
     position: absolute;
@@ -31,7 +36,9 @@
     top: 468px;
     margin-left: 20px;
 }
-.btn{
+
+/* button styles */
+.btn {
     color: #005FAC;
     position: absolute;
     width: 160px;
@@ -43,3 +50,48 @@
     border-radius: 5px;
     border: none;
 }
+
+/* main styles */
+
+.main {
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main-container {
+    order: 3;
+}
+
+.main-tittle {
+    color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.main-description {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.main-list {
+    margin: 10px 0px;
+    position: absolute;
+    right: 20%;
+    margin: 10px 0px;
+
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: #16D887;
+  }
+  li{
+    margin: 10px 0;
+  }
